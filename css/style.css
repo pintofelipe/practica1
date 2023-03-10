@@ -4,7 +4,8 @@ body {
 img{
     width: 200px; /*Ancho de la imagen*/
     height: 200px; /*Alto de la imgen*/
-    padding: 10px;
+    padding: 10px; 
+    border-radius: 5px;
 }
 
 tr:hover{
