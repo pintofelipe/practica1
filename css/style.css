@@ -1,3 +1,12 @@
 body {
     background-color: rgb(90, 205, 157);
 }
+img{
+    width: 200px; /*Ancho de la imagen*/
+    height: 200px; /*Alto de la imgen*/
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: blueviolet;
+}
