@@ -9,16 +9,32 @@
 <body>
     <h1></h1>
     <fieldset>
-        <form action="">Nombre completo</label>
-            <label for="">Direcion</label>
-            <input type="text">
-        <label for=""></label>
-        <input type="text">
+        <form action="">
+         <label for="">Nombre completo</label>
+         <input type="text">
+        
+         <label for="">Direción</label>
+         <input type="text">
 
-        <label for="">observacion</label>
-        <input type="text">
-        <button>Enviar</button>
-    </form>
+         <label for="">Observación</label>
+         <input type="text">
+        
+         <button>Enviar</button>
+        
+         <form action="/my-handling-form-page" method="post">
+            <ul>
+             <li>
+               <label for="name">Nombre:</label>
+               <input type="text" id="name" name="user_name" />
+             </li>
+             <li>
+               <label for="mail">Correo electrónico:</label>
+               <input type="email" id="mail" name="user_email" />
+             </li>
+             <li>
+               <label for="msg">Mensaje:</label>
+               <textarea id="msg" name="user_message"></textarea>
+             </li>
     </fieldset>
 </body>
 </html>
